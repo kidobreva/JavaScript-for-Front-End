@@ -1,0 +1,32 @@
+header h1{
+    text-align: center;
+    color: #733838;
+}
+
+#accordion {
+    margin-left: 560px;
+    margin-top: 20px;
+}
+
+.panel-default {
+    width: 400px;
+    border: none;
+}
+
+.panel-default>.panel-heading {
+    background-color: #733838;
+}
+
+.panel-title a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.panel-body {
+    list-style: none;
+}
+
+.panel-body li {
+    color: #733838;
+    padding: 2px 0;
+}

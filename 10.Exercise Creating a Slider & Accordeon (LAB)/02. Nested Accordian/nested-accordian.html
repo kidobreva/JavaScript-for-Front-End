@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="nested-accordian.css">
+    <title>Nested Accordeon</title>
+</head>
+<body>
+<header>
+    <h1>A Simple Accordeon</h1>
+</header>
+<div class="panel-group" id="accordion1">
+    <div class="panel panel-default">
+        <div class="panel-heading">
+            <h4 class="panel-title">
+                <a data-toggle="collapse" data-parent="#accordion1" href="#collapseOne">Item 1</a>
+            </h4>
+        </div>
+        <div id="collapseOne" class="panel-collapse collapse in">
+            <ul class="panel-body">
+                <li>Option 1</li>
+                <li>Option 2</li>
+                <li>Option 3</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="panel panel-default">
+        <div class="panel-heading">
+            <h4 class="panel-title">
+                <a data-toggle="collapse" data-parent="#accordion1" href="#collapseTwo">Item 2</a>
+            </h4>
+        </div>
+        <div id="collapseTwo" class="panel-collapse collapse">
+            <ul class="panel-body">
+                <li>Option 1</li>
+                <li>Option 2</li>
+                <li>Option 3</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="panel panel-default">
+        <div class="panel-heading">
+            <h4 class="panel-title">
+                <a data-toggle="collapse" data-parent="#accordion1" href="#collapseThree">Item 3</a>
+            </h4>
+        </div>
+        <div id="collapseThree" class="panel-collapse collapse">
+            <div class="panel-body">
+
+                <div class="panel-group" id="accordion2">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a data-toggle="collapse" data-parent="#accordion2" href="#collapseThreeOne">Open Inner</a>
+                            </h4>
+                        </div>
+                        <div id="collapseThreeOne" class="panel-collapse collapse in">
+                            <div class="panel-body">Just add data-toggle="collapse" and a data-target to element to
+                                automatically assign control of a collapsible element. The data-target attribute accepts
+                                a CSS selector to apply the collapse to. Be sure to add the class collapse to the collapsible
+                                element. If you'd like it to default open, add the additional class in.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a data-toggle="collapse" data-parent="#accordion2" href="#collapseThreeTwo">Open Inner #2</a>
+                            </h4>
+                        </div>
+                        <div id="collapseThreeTwo" class="panel-collapse collapse">
+                            <div class="panel-body">Option 3</div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="panel panel-default">
+        <div class="panel-heading">
+            <h4 class="panel-title">
+                <a data-toggle="collapse" data-parent="#accordion1" href="#collapseFour">Item 4</a>
+            </h4>
+        </div>
+        <div id="collapseFour" class="panel-collapse collapse">
+            <div class="panel-body">
+
+                <div class="panel-group" id="accordion3">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a data-toggle="collapse" data-parent="#accordion3" href="#collapseFourOne">
+                                    Technically any number of nested elements
+                                </a>
+                            </h4>
+                        </div>
+
+                        <div class="panel-group" id="accordion4">
+                            <div class="panel panel-default">
+                                <div class="panel-heading">
+                                    <h4 class="panel-title">
+                                        <a data-toggle="collapse" data-parent="#accordio4" href="#collapseFourTwo">
+                                            Another nested elements
+                                        </a>
+                                    </h4>
+                                </div>
+                                <div id="collapseFourTwo" class="panel-collapse collapse">
+                                    <ul class="panel-body">
+                                        <li>Just add data-toggle="collapse" and a data-target to element to
+                                            automatically assign control of a collapsible element. The data-target attribute accepts
+                                            a CSS selector to apply the collapse to. Be sure to add the class collapse to the collapsible
+                                            element. If you'd like it to default open, add the additional class in.
+                                        </li>
+                                        <li>Option 2</li>
+                                        <li>Option 3</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+</div>
+</body>
+</html>

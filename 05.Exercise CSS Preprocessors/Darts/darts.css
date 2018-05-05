@@ -1,0 +1,52 @@
+.darts {
+  width: 600px;
+  height: 600px;
+  position: relative;
+  margin: 0 auto; }
+  .darts div {
+    border-radius: 50%;
+    color: #ffffff;
+    position: absolute; }
+    .darts div span {
+      display: block;
+      text-align: center;
+      padding-top: 10px;
+      font-size: 30px; }
+  .darts .brown-circle {
+    width: 600px;
+    height: 600px;
+    top: 0;
+    left: 0;
+    background-color: #A52A2A; }
+  .darts .blue-circle {
+    width: 500px;
+    height: 500px;
+    top: 50px;
+    left: 50px;
+    background-color: #0000FF;
+    /*left: calc(50% - 200px);
+    top: calc(50% - 200px)*/ }
+  .darts .green-circle {
+    width: 400px;
+    height: 400px;
+    top: 100px;
+    left: 100px;
+    background-color: #ADFF2F; }
+  .darts .yellow-circle {
+    width: 300px;
+    height: 300px;
+    top: 150px;
+    left: 150px;
+    background-color: #FFFF00; }
+  .darts .red-circle {
+    width: 200px;
+    height: 200px;
+    top: 200px;
+    left: 200px;
+    background-color: #FF0000; }
+    .darts .red-circle span {
+      height: 200px;
+      line-height: 200px;
+      padding-top: 0; }
+
+/*# sourceMappingURL=darts.css.map */

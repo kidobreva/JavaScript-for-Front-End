@@ -1,0 +1,152 @@
+body {
+  background: linear-gradient(to bottom, #808080, #FFFFFF); }
+
+#wrapper {
+  width: 960px;
+  height: 1450px;
+  margin: 0 auto;
+  background-color: #ffffff;
+  border: 4px double #B5B5B5; }
+  #wrapper header:first-child {
+    border: 4px double #B5B5B5;
+    margin: 20px; }
+    #wrapper header:first-child h1 {
+      text-align: center;
+      color: #808080; }
+    #wrapper header:first-child nav ul {
+      list-style: none;
+      display: flex;
+      justify-content: center; }
+      #wrapper header:first-child nav ul li {
+        padding: 5px 15px; }
+        #wrapper header:first-child nav ul li a {
+          border: 4px double #B5B5B5;
+          color: #B5B5B5;
+          text-decoration: none;
+          width: 100px;
+          height: 35px;
+          display: block;
+          line-height: 35px;
+          text-align: center; }
+          #wrapper header:first-child nav ul li a:hover {
+            background: linear-gradient(to bottom, #909090, #fcfcfc);
+            color: #ffffff; }
+  #wrapper section.linear {
+    border: 4px double #B5B5B5;
+    margin: 20px; }
+    #wrapper section.linear #linear {
+      color: #797C7D;
+      font-size: 15px;
+      text-decoration: underline;
+      border: none; }
+    #wrapper section.linear article {
+      border: 1px solid #B5B5B5;
+      margin: 20px;
+      padding: 20px;
+      padding-top: 0; }
+      #wrapper section.linear article #vertical {
+        border: none;
+        text-align: center;
+        font-size: 12px;
+        color: #797C7D; }
+      #wrapper section.linear article #horizontal {
+        border: none;
+        text-align: center;
+        font-size: 12px;
+        color: #797C7D; }
+      #wrapper section.linear article #diagonal {
+        border: none;
+        text-align: center;
+        font-size: 12px;
+        color: #797C7D; }
+      #wrapper section.linear article .innerContainer {
+        display: flex;
+        justify-content: center; }
+        #wrapper section.linear article .innerContainer div {
+          border-radius: 20px;
+          width: 130px;
+          height: 130px; }
+      #wrapper section.linear article:nth-of-type(1) .purple {
+        background: linear-gradient(to bottom, #2E002E, #FEF0FE); }
+      #wrapper section.linear article:nth-of-type(1) .blue {
+        background: linear-gradient(to bottom, #1313B5, #F0F0FE); }
+      #wrapper section.linear article:nth-of-type(1) .green {
+        background: linear-gradient(to bottom, #133F13, #F0FEF0); }
+      #wrapper section.linear article:nth-of-type(1) .yellow {
+        background: linear-gradient(to bottom, #F6F613, #FEFEC7); }
+      #wrapper section.linear article:nth-of-type(1) .orange {
+        background: linear-gradient(to bottom, #ED9913, #FFFFE1); }
+      #wrapper section.linear article:nth-of-type(1) .red {
+        background: linear-gradient(to bottom, #D11313, #FFE7E7); }
+      #wrapper section.linear article:nth-of-type(2) .purple {
+        background: linear-gradient(to right, #2E002E, #FEF0FE); }
+      #wrapper section.linear article:nth-of-type(2) .blue {
+        background: linear-gradient(to right, #1313B5, #F0F0FE); }
+      #wrapper section.linear article:nth-of-type(2) .green {
+        background: linear-gradient(to right, #133F13, #F0FEF0); }
+      #wrapper section.linear article:nth-of-type(2) .yellow {
+        background: linear-gradient(to right, #F6F613, #FEFEC7); }
+      #wrapper section.linear article:nth-of-type(2) .orange {
+        background: linear-gradient(to right, #ED9913, #FFFFE1); }
+      #wrapper section.linear article:nth-of-type(2) .red {
+        background: linear-gradient(to right, #D11313, #FFE7E7); }
+      #wrapper section.linear article:nth-of-type(3) .purple {
+        background: linear-gradient(to bottom right, #2E002E, #FEF0FE); }
+      #wrapper section.linear article:nth-of-type(3) .blue {
+        background: linear-gradient(to bottom right, #1313B5, #F0F0FE); }
+      #wrapper section.linear article:nth-of-type(3) .green {
+        background: linear-gradient(to bottom right, #133F13, #F0FEF0); }
+      #wrapper section.linear article:nth-of-type(3) .yellow {
+        background: linear-gradient(to bottom right, #F6F613, #FEFEC7); }
+      #wrapper section.linear article:nth-of-type(3) .orange {
+        background: linear-gradient(to bottom right, #ED9913, #FFFFE1); }
+      #wrapper section.linear article:nth-of-type(3) .red {
+        background: linear-gradient(to bottom right, #D11313, #FFE7E7); }
+  #wrapper section.radial {
+    border: 4px double #B5B5B5;
+    margin: 20px; }
+    #wrapper section.radial #radial {
+      color: #797C7D;
+      font-size: 15px;
+      text-decoration: underline;
+      border: none; }
+    #wrapper section.radial article .innerContainer {
+      display: flex;
+      justify-content: center;
+      border: 1px solid #B5B5B5;
+      margin: 20px;
+      padding: 20px;
+      padding-top: 0;
+      padding-top: 20px; }
+      #wrapper section.radial article .innerContainer div {
+        border-radius: 20px;
+        width: 130px;
+        height: 130px; }
+    #wrapper section.radial article .purple {
+      background: radial-gradient(#2E002E, #FEF0FE); }
+    #wrapper section.radial article .blue {
+      background: radial-gradient(#1313B5, #F0F0FE); }
+    #wrapper section.radial article .green {
+      background: radial-gradient(#133F13, #F0FEF0); }
+    #wrapper section.radial article .yellow {
+      background: radial-gradient(#F6F613, #FEFEC7); }
+    #wrapper section.radial article .orange {
+      background: radial-gradient(#ED9913, #FFFFE1); }
+    #wrapper section.radial article .red {
+      background: radial-gradient(#D11313, #FFE7E7); }
+  #wrapper footer {
+    border: 4px double #B5B5B5;
+    margin: 20px;
+    text-align: center; }
+    #wrapper footer h3 {
+      color: #797C7D;
+      font-size: 15px;
+      text-decoration: underline;
+      font-size: 20px; }
+    #wrapper footer ul {
+      list-style: none; }
+      #wrapper footer ul li a {
+        text-decoration: none;
+        color: #797C7D; }
+
+/*# sourceMappingURL=gradient-city.css.map */
